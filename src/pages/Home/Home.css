@@ -1,0 +1,139 @@
+#results {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#results ul {
+  padding-left: 0px;
+}
+#searchBar {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+#searchBar div > input {
+  width: 75%;
+  display: inline-block;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+#searchBar .selectSearchBy {
+  display: inline-block;
+  height: 30px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 140px;
+}
+
+input[type="text"] {
+  vertical-align: top;
+  position: relative;
+  height: 38px;
+  width: calc(95% - 140px);
+}
+.LabItem {
+  width: 95%;
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  background-color: #199acc;
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.LabItem h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+.levelInfo {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #242424;
+  min-width: 70px;
+  width: 70px;
+}
+
+.levelInfo p {
+  margin-top: 0px;
+}
+
+.tags {
+  padding: 5px;
+  background-color: #242424;
+  margin: 5px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  height: 15px;
+  line-height: 14px;
+}
+
+.LabItem p {
+  margin-bottom: 5px;
+}
+
+#searchArea {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#totalLabs {
+  display: inline-block;
+}
+@media only screen and (max-width: 601px) {
+  .levelInfo p {
+    text-align: center;
+  }
+  #searchBar div > input {
+    width: 60%;
+  }
+  .css-yk16xz-control {
+    margin-right: 10px;
+  }
+
+  #searchBar .selectSearchBy {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 826px) {
+  .levelInfo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    width: 100%;
+    right: 0;
+    text-align: center;
+  }
+
+  .LabItem h3 {
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #searchBar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 622px) and (min-width: 400px) {
+  #searchBar div > input {
+    width: 55%;
+  }
+}
